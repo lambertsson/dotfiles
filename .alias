@@ -1,0 +1,18 @@
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+# Git
+alias g="git"
+alias gs="git status"
+alias gc="git checkout"
+
+# Yarn
+alias y="yarn"
+alias yf="yarn --force"
+
+alias ip="curl -s ipinfo.io | jq -r '.ip'"
+
+# Lock the screen (when going AFK)
+alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
